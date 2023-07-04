@@ -1,0 +1,95 @@
+body{
+    color:darkcyan;
+    font-family: Amatic SC;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    position:relative;
+    top:100px;
+    
+}
+
+h2{
+    position:relative;
+    text-align: center;
+    font-size: 50px;
+    top:90px;
+
+}
+#cocco{
+    position:relative;
+    right:0px;
+    top:-280px;
+    
+}
+#gira{
+    position:relative;
+    left:400px;
+    top:-280px;
+}
+
+#faccia{
+    margin:auto;
+    width: 1000px;
+    background-color: white;
+    height: 430px;
+}
+
+.buttonBarra{ 
+    width:200px;
+    height:50px; 
+    background-color: white;
+    
+    color:darkcyan;
+    font-family: Amatic SC;
+    font-size: 40px;
+    border-left-width: 1px;
+    border-color:darkcyan;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+
+
+}
+#contact{
+    border-right-width: 0px;
+}
+
+#buttonGroup{
+    font-size: 0px; /*  devo selezionare font size 0 per togliere lo spazio tra i bottoni*/
+    width:1013px;
+    display:block;
+    margin:auto;
+    background-color: white;
+    
+
+}
+
+
+
+.img{
+    width:333px;
+    height: 333px;
+    
+}
+#buttonImg{
+    display:block;
+    margin:auto;
+    width:1005px;
+    background-color: white;
+    opacity: 1.0;
+    filter: alpha(opacity=100)
+}
+/*  Metto gli effetti quando ci passi il mouse sopra con le pseudoclass*/
+
+button:hover{
+    color:rgb(5, 199, 199);
+
+}
+
+.img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}
